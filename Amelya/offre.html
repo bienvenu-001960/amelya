@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offres d'Emploi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            position: relative;
+            height: 100vh;
+            background-image: url(f.jpg); 
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0px 0px 200px 200px;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        header p {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Navigation links inside header */
+        header nav {
+            position: absolute;
+            top: 20px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        header nav a:hover {
+            background-color: #6e866f;
+        }
+
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .job {
+            background: #fff;
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 1rem;
+        }
+
+        .job img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .job-content {
+            flex: 1;
+        }
+
+        .job h3 {
+            margin-top: 0;
+        }
+
+        .job p {
+            line-height: 1.6;
+        }
+
+        .job a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            color: #fff;
+            background-color: #1e88e5;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .job a:hover {
+            background-color: #005cb2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Photographe Passionné</h1>
+        <p>Immortalisez vos moments précieux</p>
+        <!-- Navigation inside header with background image -->
+        <nav>
+            <a href="#about">À Propos</a>
+            <a href="#gallery">Galerie</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- Job Offer 1 -->
+        <div class="job">
+            <img src="c.jpg" alt="Photo de l'offre">
+            <div class="job-content">
+                <h3>Développeur Web Front-End</h3>
+                <p>Nous recherchons un développeur front-end talentueux avec une expérience en HTML, CSS et JavaScript. Vous travaillerez avec notre équipe dynamique pour créer des interfaces utilisateurs modernes et responsives.</p>
+                <p><strong>Lieu :</strong> Kinshasa</p>
+                <p><strong>Salaire :</strong> À négocier</p>
+                <a href="lanceroffre.html">Postuler maintenant</a>
+            </div>
+        </div>
+
+        <!-- Job Offer 2 -->
+        <div class="job">
+            <img src="c.jpg" alt="Photo de l'offre">
+            <div class="job-content">
+                <h3>Designer UI/UX</h3>
+                <p>Si vous êtes passionné par la création d'expériences utilisateur captivantes et esthétiques, rejoignez notre équipe en tant que designer UI/UX. Expérience avec Figma ou Adobe XD requise.</p>
+                <p><strong>Lieu :</strong> Lubumbashi</p>
+                <p><strong>Salaire :</strong> Compétitif</p>
+                <a href="lanceroffre.html">Postuler maintenant</a>
+            </div>
+        </div>
+
+        <!-- Job Offer 3 -->
+        <div class="job">
+            <img src="c.jpg" alt="Photo de l'offre">
+            <div class="job-content">
+                <h3>Analyste de Données</h3>
+                <p>Nous avons besoin d'un analyste de données qualifié pour transformer des données complexes en informations exploitables. Compétences en Python, SQL et Power BI préférées.</p>
+                <p><strong>Lieu :</strong> Kolwezi</p>
+                <p><strong>Salaire :</strong> À discuter</p>
+                <a href="lanceroffre.html">Postuler maintenant</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
